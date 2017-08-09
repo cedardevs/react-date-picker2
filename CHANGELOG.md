@@ -1,6 +1,10 @@
 react-date-picker2
 ==================
 
+#### 6.2.0 & 6.3.0
+
+   * resolve Babel build issues when used as dependency
+
 #### 6.1.0
 
    * removing .babelrc from .npmignore (it is needed!)
