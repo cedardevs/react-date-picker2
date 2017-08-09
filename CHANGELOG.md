@@ -1,6 +1,10 @@
 react-date-picker2
 ==================
 
+#### 6.1.0
+
+   * removing .babelrc from .npmignore (it is needed!)
+
 #### 6.0.0
 
   * fork from 5.2.8 -> 6.0.0
