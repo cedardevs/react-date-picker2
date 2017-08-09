@@ -80,7 +80,7 @@
     "build": "npm run styles && npm run lib",
     "lib": "rimraf lib && npm run babel",
     "lint": "eslint src/**",
-    "prepare": "nsp check && retire -p",
+    "prepare": "npm run build",
     "styles": "theme-builder"
   },
   "version": "6.2.0"
