@@ -9,7 +9,7 @@ react-date-picker2
   * updated name references to react-date-picker2 for fork
   * updated README.md and provided disclaimer on the fork
   * remove webpack dependencies causing Moment.js dependency injection to trigger security vulnerability
-  * converted deprecated "prepublish" script to "prepare" and added nsp check
+  * converted deprecated "prepublish" script to "prepare" and added nsp check && retire -p
   * aligned eslint peer dependencies
 
 #### 5.0.0
