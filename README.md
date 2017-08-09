@@ -1,5 +1,8 @@
-react-date-picker
-=================
+react-date-picker2
+==================
+
+## Disclaimer:
+This is not the official or original repository for "react-date-picker" created by ZippyUI. This repo was created because we started leveraging its great features, and the component continued to be available from NPM; however, the GitHub repo and the ZippyUI team suddenly disappeared. Mostly we wanted to be able to address security vulnerabilities that had not been taken into account in the last version provided by ZippyUI. Primarily, there was a known vulnerability in the version of Moment.js, and the primary motivation for forking this project was to update that version and include it in our projects for security scans and reviews.
 
 <!-- [![Circle CI](https://circleci.com/gh/zippyui/react-date-picker/tree/master.svg?style=svg)](https://circleci.com/gh/zippyui/react-date-picker/tree/master) -->
 
@@ -16,7 +19,7 @@ Click for [LIVE DEMO!](http://zippyui.com/docs/react-date-picker/examples)
 ## Install
 
 ```sh
-$ npm install react-date-picker
+$ npm install react-date-picker2
 ```
 
 ## Key features
@@ -35,13 +38,13 @@ $ npm install react-date-picker
 
 Import the css first
 ```jsx
-import 'react-date-picker/index.css'
+import 'react-date-picker2/index.css'
 ```
 
 Then go ahead & use the components
 ```jsx
 
-import { DateField, Calendar } from 'react-date-picker'
+import { DateField, Calendar } from 'react-date-picker2'
 
 const onChange = (dateString, { dateMoment, timestamp }) => {
   console.log(dateString)
@@ -57,13 +60,13 @@ let date = '2017-04-24'
 ```
 
 
-## [Docs & examples](http://zippyui.com/docs/react-date-picker)
+## [Docs & examples](http://zippyui.com/docs/react-date-picker2)
 
 See [zippyui.com/docs/react-date-picker](http://zippyui.com/docs/react-date-picker)
 
 ## Components
 
-The `react-date-picker` module exposes a number of components as named exports. The most important ones are:
+The `react-date-picker2` module exposes a number of components as named exports. The most important ones are:
 
  * `DateField` - a date field
  * `Calendar` - a calendar view - with support for date & time formats
@@ -106,7 +109,7 @@ With this setup, you have an environment which live-reloads all your changes, so
 
 ## Other
 
-`react-date-picker` uses the awesome `moment.js` library ( Big thanks!)
+`react-date-picker2` uses the awesome `moment.js` library (Big thanks!)
 
 ## License
 
