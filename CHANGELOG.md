@@ -1,5 +1,16 @@
-react-date-picker
-=================
+react-date-picker2
+==================
+
+#### 6.0.0
+
+  * fork from 5.2.8 -> 6.0.0
+  * add .babelrc to allow JSX to be understood in build
+  * build/webpack.config.js not preserved in src from NPM fork (GitHub missing)
+  * updated name references to react-date-picker2 for fork
+  * updated README.md and provided disclaimer on the fork
+  * remove webpack dependencies causing Moment.js dependency injection to trigger security vulnerability
+  * converted deprecated "prepublish" script to "prepare" and added nsp check
+  * aligned eslint peer dependencies
 
 #### 5.0.0
 
